@@ -1,0 +1,163 @@
+/* 🔹 Configuración general */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* 🔹 HEADER */
+header {
+  background: linear-gradient(90deg, #004c97, #007bff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* 🔹 HERO SECTION */
+.hero {
+  background: #f8f9fa;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* 🔹 ESTILO DE TARJETAS DE EVENTOS */
+.event-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 🔹 FOOTER */
+footer {
+  background: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 🔹 ESTILOS DEL NAVBAR (BARRA PRINCIPAL) */
+.navbar {
+  background: linear-gradient(90deg, #004c97, #007bff);
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important; /* Amarillo dorado */
+  text-decoration: underline;
+}
+
+/* 🔹 ESTILOS DEL NAV-TABS (Pestañas) */
+.nav-tabs {
+  margin-top: 10px;
+  border-bottom: 3px solid #ddd;
+}
+
+/* Estilo de las pestañas (diferente del navbar) */
+.nav-tabs .nav-link {
+  color: #000000 !important; /* Azul oscuro */
+  background-color: #ffffff; /* Fondo gris claro */
+  border: 1px solid #004080;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Pestaña activa */
+.nav-tabs .nav-link.active {
+  background-color: #004080 !important; /* Azul oscuro */
+  color: white !important;
+  border-bottom: 3px solid #ff0000; /* Línea roja */
+}
+
+/* Hover en pestañas */
+.nav-tabs .nav-link:hover {
+  background-color: #d9e5f2 !important; /* Azul más claro */
+  color: #000000 !important;
+  border-color: #002f6c;
+}
+
+/* 🔹 RESPONSIVIDAD */
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2rem;
+  }
+  .event-card {
+      padding: 15px;
+  }
+  .navbar {
+      padding: 10px;
+  }
+}
+/* Estilo para la tabla */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Estilo de los encabezados */
+.custom-table thead {
+  background-color: #004c97; /* Azul oscuro */
+  color: white;
+}
+
+.custom-table th, .custom-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.custom-table thead th {
+  background-color: #004080 !important; /* Azul oscuro */
+  color: white !important;
+  border-bottom: 3px solid #ff0000; /* Línea roja */
+}
+/* Negrita para la primera columna */
+.custom-table tbody td:first-child {
+  font-weight: bold;
+  text-align: center;
+  width: 30%;
+}
+
+/* Justificación para la segunda columna */
+.custom-table tbody td:nth-child(2) {
+  text-align: justify;
+}
+
+/* Estilo de filas alternas */
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo al pasar el mouse */
+.custom-table tbody tr:hover {
+  background-color: #d9e5f2;
+  transition: 0.3s;
+}
