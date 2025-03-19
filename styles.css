@@ -1,3 +1,4 @@
+
 /* 🔹 Configuración general */
 body {
   font-family: 'Arial', sans-serif;
@@ -160,4 +161,179 @@ footer {
 .custom-table tbody tr:hover {
   background-color: #d9e5f2;
   transition: 0.3s;
+}
+
+/* 🔹 Reset y ajustes generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 🔹 Contenedor de los iconos */
+.wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 15vh; 
+  list-style: none; 
+  padding: 0;
+}
+
+/* 🔹 Estilos generales de los iconos */
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* 🔹 Tooltip centrado correctamente */
+.wrapper .tooltip {
+  position: absolute;
+  top: -40px; /* Eleva el tooltip sobre el icono */
+  left: 50%; /* Centra el tooltip horizontalmente */
+  transform: translateX(-50%); /* Corrige la alineación */
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Flecha del tooltip */
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg); /* Posición corregida */
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Efecto Hover: Tooltip aparece bien centrado */
+.wrapper .icon:hover .tooltip {
+  top: -55px; /* Ajuste para que suba más */
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* 🔹 Eliminar subrayado y ajustar enlaces */
+.wrapper .icon a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del icono */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 🔹 Efecto Hover para los enlaces dentro de los iconos */
+.wrapper .icon a:hover {
+  text-decoration: none;
+  transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+}
+
+/* 🔹 Asegurar que los iconos sigan funcionando dentro del enlace */
+.wrapper .icon i {
+  font-size: 22px;
+}
+
+
+/* 🔹 Efecto Hover: Sombra en iconos */
+.wrapper .icon:hover {
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Colores al pasar el mouse en cada red social */
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #000;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e94261;
+  color: #ffffff;
+}
+
+.wrapper .telegram:hover,
+.wrapper .telegram:hover .tooltip,
+.wrapper .telegram:hover .tooltip::before {
+  background: #258fe6;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+/* Estilos para la sección de Misión y Visión */
+.mision-vision {
+  margin-top: 50px;
+}
+
+/* Títulos centrados y resaltados */
+.mision-vision h3 {
+  color: #004c97; /* Azul oscuro */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Texto justificado */
+.mision-vision p {
+  text-align: justify;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .mision-vision .row {
+      flex-direction: column;
+  }
+
+  .mision-vision .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
 }
