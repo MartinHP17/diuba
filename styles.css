@@ -60,6 +60,7 @@ footer {
 .navbar-brand {
   color: white !important;
   font-weight: bold;
+  font-size: xx-large;
 }
 
 .navbar-nav .nav-link {
