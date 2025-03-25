@@ -28,6 +28,12 @@ header {
   font-size: 3rem;
 }
 
+.bienvenida h2 {
+  font-size: 2.5rem; /* Ajusta el tamaño (puedes aumentarlo) */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+  text-align: center; /* Centra el texto */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
 /* 🔹 ESTILO DE TARJETAS DE EVENTOS */
 .event-card {
   border-radius: 15px;
@@ -337,4 +343,78 @@ footer {
       width: 100%;
       margin-bottom: 20px;
   }
+}
+
+.authorities-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.authority-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+.authority-card:hover {
+  transform: translateY(-5px);
+}
+.authority-img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+.authority-title {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.authority-position {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+.section-header {
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  position: relative;
+  margin-bottom: 40px;
+}
+.section-header h1 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-weight: 700;
+}
+.overlay-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.divider-icon {
+  margin: 30px 0;
+  text-align: center;
+}
+.divider-icon i {
+  font-size: 2rem;
+  color: #3498db;
+}
+.contact-info {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.contact-info i {
+  font-size: 2rem;
+  color: #3498db;
+  margin-bottom: 15px;
 }
