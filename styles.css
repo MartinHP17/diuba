@@ -17,6 +17,7 @@ header {
   font-weight: bold;
 }
 
+
 /* 🔹 HERO SECTION */
 .hero {
   background: #f8f9fa;
@@ -46,6 +47,28 @@ header {
 
 .event-card:hover {
   transform: translateY(-5px);
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.accordion-button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #feffff;
+}
+.accordion-body {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 0 0 8px 8px;
+  text-align: justify;
 }
 
 /* 🔹 FOOTER */
