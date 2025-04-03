@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,25 +16,25 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="imagenes/Logouba.jpg" alt="Logo" width="200" height="200" class="me-2">
+        <img src="imagenes/Logo diuba.png" alt="Logo" width="200" height="200" class="me-2">
       </a>
-      <a class="navbar-brand" href="index.html">Dirección de Investigación</a>
+      <a class="navbar-brand" href="index.php">Dirección de Investigación</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="eventos.html">Eventos</a>
+            <a class="nav-link" href="eventos.php">Eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="lineas.html">Líneas De Investigación</a>
+            <a class="nav-link" href="lineas.php">Líneas De Investigación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>
@@ -83,9 +83,9 @@
   <div class="col-md-6">
     <div class="contact-info text-center">
       <i class="far fa-building"></i>
-      <h3>Dirección de los Programas de Postgrado</h3>
+      <h3>Dirección de Investigación</h3>
       <p>Teléfonos: 0243-2650010<br>
-      E-mail: direccion.postgrado@uba.edu.ve</p>
+      E-mail: direccion.investigacion@uba.edu.ve</p>
     </div>
   </div>
 </div>
@@ -144,4 +144,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </body>
-</html>
+</php>

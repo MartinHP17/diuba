@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +10,21 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="imagenes/Logouba.jpg" alt="Logo" width="200" height="200" class="me-2">
+      <img src="imagenes/Logo diuba.png" alt="Logo" width="200" height="200" class="me-2">
     </a>
-    <a class="navbar-brand" href="index.html">Dirección de Investigación</a>
+    <a class="navbar-brand" href="index.php">Dirección de Investigación</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
-        <li class="nav-item"><a class="nav-link" href="lineas.html">Líneas De Investigación</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.php">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="eventos.php">Eventos</a></li>
+        <li class="nav-item"><a class="nav-link" href="lineas.php">Líneas De Investigación</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
       </ul>
     </div>
   </div>
@@ -54,7 +54,7 @@
 <section id="info" class="bg-light py-5">
   <div class="container">
     <h2 class="text-center"> Políticas</h2>
-    <p>Las políticas de investigación de la UBA están dirigidas a organizar la actividad investigativa, coordina, fomenta y apoya las actividades desarrolladas por las unidades académicas y los investigadores de la Universidad en las distintas áreas estratégicas de Investigación, la cual debe conducir a la producción de conocimientos y su transferencia a los sectores prioritarios de la sociedad. 
+    <p  class="text-justify">Las políticas de investigación de la UBA están dirigidas a organizar la actividad investigativa, coordina, fomenta y apoya las actividades desarrolladas por las unidades académicas y los investigadores de la Universidad en las distintas áreas estratégicas de Investigación, la cual debe conducir a la producción de conocimientos y su transferencia a los sectores prioritarios de la sociedad. 
       A largo plazo se pretende construir una nueva práctica de investigación comprometida, endógena, dialógica, transdisciplinaria, colectiva y activa que produzca conocimiento situado y pertinente para la vida. 
       Se trata de consolidar los mecanismos existentes a través de los cuales se desarrollan las actividades de investigación en la UBA, así como construir y consolidar aquellos que sean necesarios para una gestión que permita potenciar las capacidades actuales en el campo del conocimiento.</p>  </div>
 </section>
@@ -63,7 +63,7 @@
   <div class="row g-4">
     <div class="col-md-3">
       <div class="card p-3 h-100">
-        <p>Fortalecer la capacidad de investigación, así como la construcción y difusión del conocimiento dentro y desde la universidad con miras a hacer aportes al desarrollo del pensamiento.</p>
+        <p >Fortalecer la capacidad de investigación, así como la construcción y difusión del conocimiento dentro y desde la universidad con miras a hacer aportes al desarrollo del pensamiento.</p>
         <img src="imagenes/inves-1611966463.webp" alt="Imagen decorativa" class="img-fluid w-100">
       </div>
     </div>
@@ -108,7 +108,7 @@
       <!-- Visión -->
       <div class="col-md-6">
           <h3 class="text-center">Visión</h3>
-          <p>
+          <p  class="text-justify">
               Consolidarse como Universidad de vanguardia y referente nacional e internacional, fundamentada en los principios, valores 
               y criterios que la identifican como institución educativa de avanzada en procesos de formación y perfeccionamiento de 
               talento humano profesional.
@@ -226,7 +226,7 @@
         <div class="card-body">
           <h5 class="card-title">Congreso Iberoamericano de Estudiantes UBA</h5>
           <p class="card-text">Fecha: 30 de julio, Lugar: Auditorio Principal</p>
-          <a href="eventos.html" class="btn btn-outline-primary">Más Información</a>
+          <a href="eventos.php" class="btn btn-outline-primary">Más Información</a>
         </div>
       </div>
     </div>
@@ -235,7 +235,7 @@
         <div class="card-body">
           <h5 class="card-title">Jornada de Investigación</h5>
           <p class="card-text">Fecha: 15 de abril, Lugar: Sala de Conferencias</p>
-          <a href="eventos.html" class="btn btn-outline-primary">Más Información</a>
+          <a href="eventos.php" class="btn btn-outline-primary">Más Información</a>
         </div>
       </div>
     </div>
@@ -244,7 +244,7 @@
         <div class="card-body">
           <h5 class="card-title">Taller de Metodologías de Investigación</h5>
           <p class="card-text">Fecha: 20 de mayo, Lugar: Biblioteca </p>
-          <a href="eventos.html" class="btn btn-outline-primary">Más Información</a>
+          <a href="eventos.php" class="btn btn-outline-primary">Más Información</a>
         </div>
       </div>
     </div>
@@ -274,4 +274,4 @@
 </script>
 
 </body>
-</html>
+</php>
